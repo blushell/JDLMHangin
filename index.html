@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JDLM Hanging</title>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="min-h-screen flex flex-col bg-doorcream">
+		<header class="sticky-header">
+			<div class="container">
+				<a href="#" class="logo" aria-label="Home">JDLM</a>
+
+				<!-- Desktop Navigation -->
+				<nav class="desktop-nav">
+					<a href="#hero" class="nav-link">Home</a>
+					<a href="#about" class="nav-link">About</a>
+					<a href="#testimonials" class="nav-link">Testimonials</a>
+					<a href="#contact" class="nav-link">Contact</a>
+					<a href="#contact" class="neo-button">Get Started</a>
+				</nav>
+
+				<!-- Mobile Menu Button -->
+				<button class="mobile-menu-btn" aria-label="Toggle menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+
+				<!-- Mobile Navigation -->
+				<nav class="mobile-nav">
+					<a href="#hero" class="nav-link">Home</a>
+					<a href="#about" class="nav-link">About</a>
+					<a href="#testimonials" class="nav-link">Testimonials</a>
+					<a href="#contact" class="nav-link">Contact</a>
+					<a href="#contact" class="neo-button">Get Started</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section id="hero" class="hero-section grid-pattern">
+				<div class="container">
+					<div class="hero-content">
+						<div class="hero-text">
+							<h1 class="hero-title">
+								<span style="color: var(--color-doornge)">Don't</span> Leave
+								Your
+								<span style="color: var(--color-doornge)">Marketing</span>
+								Hanging
+							</h1>
+							<p class="hero-description">
+								We create eye-catching door hangers that get your message
+								noticed! Perfect for local businesses, events, and targeted
+								campaigns.
+							</p>
+							<div class="hero-buttons" style="display: flex; gap: 1rem">
+								<a href="#about" class="neo-button">Learn More</a>
+								<a
+									href="#contact"
+									class="neo-button"
+									style="background-color: white; color: var(--color-doorblack)"
+									>Get a Quote</a
+								>
+							</div>
+						</div>
+
+						<div class="hero-image">
+							<div class="blob blob-1"></div>
+							<div class="blob blob-2"></div>
+
+							<div class="mascot-container">
+								<img
+									id="heroMascot"
+									src="./img/mascot_hammer.png"
+									alt="JDLM Door Hanger Mascot"
+									class="mascot-image"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="about" class="about-section">
+				<div class="container">
+					<div class="section-header">
+						<svg
+							class="info-icon"
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<circle cx="12" cy="12" r="10"></circle>
+							<line x1="12" y1="16" x2="12" y2="12"></line>
+							<line x1="12" y1="8" x2="12.01" y2="8"></line>
+						</svg>
+						<h2 class="section-title">About Us</h2>
+					</div>
+
+					<div class="about-intro">
+						<p>
+							<span class="font-bold">Just Don't Leave Me Hanging</span>
+							specializes in creating impactful door hanger marketing campaigns
+							that connect businesses with their local customers.
+						</p>
+						<p>
+							Founded in 2015, we've helped over 500 businesses increase foot
+							traffic and conversion rates with our eye-catching designs and
+							strategic distribution.
+						</p>
+					</div>
+
+					<div class="services-grid">
+						<div class="service-card">
+							<div class="service-icon">🎨</div>
+							<h3 class="service-title">Custom Design</h3>
+							<p>
+								Eye-catching designs that match your brand identity and grab
+								attention.
+							</p>
+						</div>
+
+						<div class="service-card">
+							<div class="service-icon">🖨️</div>
+							<h3 class="service-title">Premium Printing</h3>
+							<p>
+								High-quality materials that stand out and last longer on
+								doorknobs.
+							</p>
+						</div>
+
+						<div class="service-card">
+							<div class="service-icon">🚚</div>
+							<h3 class="service-title">Distribution</h3>
+							<p>
+								Strategic targeting to reach your ideal customers in specific
+								neighborhoods.
+							</p>
+						</div>
+
+						<div class="service-card">
+							<div class="service-icon">📊</div>
+							<h3 class="service-title">Analytics</h3>
+							<p>
+								Track the effectiveness of your campaigns with QR codes and
+								custom URLs.
+							</p>
+						</div>
+					</div>
+
+					<div class="why-door-hangers">
+						<div class="why-content">
+							<h3 class="why-title">Why Door Hangers?</h3>
+							<ul class="why-list">
+								<li>
+									Bypass mailbox restrictions and get directly to customers
+								</li>
+								<li>Stand out from traditional flyers and postcards</li>
+								<li>Target specific neighborhoods with precision</li>
+								<li>Create a personal connection with potential customers</li>
+								<li>Higher engagement rates than digital advertising</li>
+							</ul>
+						</div>
+
+						<div class="why-image">
+							<img
+								src="./img/mascot_checklist.png"
+								alt="Door Hanger Mascot Waving"
+								class="mascot-waving"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="testimonials" class="testimonials-section dot-pattern">
+				<div class="container">
+					<div class="section-header">
+						<span class="emoji-icon" aria-hidden="true">💬</span>
+						<h2 class="section-title">What Clients Say</h2>
+					</div>
+
+					<div class="testimonials-grid">
+						<div class="testimonial-card">
+							<div class="quote-mark">"</div>
+							<p class="testimonial-text">
+								Our restaurant saw a 30% increase in new customers after JDLM's
+								door hanger campaign. Best marketing decision we've made!
+							</p>
+							<div class="testimonial-author">
+								<div class="author-avatar">S</div>
+								<div class="author-info">
+									<p class="author-name">Sarah Johnson</p>
+									<p class="author-position">Owner, The Tasty Table</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="testimonial-card">
+							<div class="quote-mark">"</div>
+							<p class="testimonial-text">
+								The door hangers were so eye-catching! We had people coming into
+								our shop with them in hand asking about our services.
+							</p>
+							<div class="testimonial-author">
+								<div class="author-avatar">M</div>
+								<div class="author-info">
+									<p class="author-name">Michael Chen</p>
+									<p class="author-position">Marketing Director, CleanPro</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="testimonial-card">
+							<div class="quote-mark">"</div>
+							<p class="testimonial-text">
+								JDLM's team designed the perfect door hanger that perfectly
+								matched our brand. Highly recommend their creativity!
+							</p>
+							<div class="testimonial-author">
+								<div class="author-avatar">A</div>
+								<div class="author-info">
+									<p class="author-name">Amanda Lopez</p>
+									<p class="author-position">CEO, Bloom Florals</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="testimonial-card">
+							<div class="quote-mark">"</div>
+							<p class="testimonial-text">
+								The ROI on our door hanger campaign was amazing. We'll
+								definitely be working with JDLM hanging again!
+							</p>
+							<div class="testimonial-author">
+								<div class="author-avatar">D</div>
+								<div class="author-info">
+									<p class="author-name">David Wilson</p>
+									<p class="author-position">Owner, Fitness First</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="testimonials-cta">
+						<p>Join our growing list of satisfied clients!</p>
+						<a href="#contact" class="neo-button">Start Your Campaign</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact" class="contact-section">
+				<div class="container">
+					<div class="section-header">
+						<span class="emoji-icon" aria-hidden="true">✉️</span>
+						<h2 class="section-title">Get In Touch</h2>
+					</div>
+
+					<div class="contact-grid">
+						<div class="contact-info">
+							<h3 class="contact-subtitle">Contact Us</h3>
+
+							<div class="contact-details">
+								<div class="contact-item">
+									<svg
+										class="contact-icon"
+										xmlns="http://www.w3.org/2000/svg"
+										width="20"
+										height="20"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path
+											d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+										></path>
+										<polyline points="22,6 12,13 2,6"></polyline>
+									</svg>
+									<a href="mailto:hello@jdlmhanging.com"
+										>hello@jdlmhanging.com</a
+									>
+								</div>
+								<div class="contact-item">
+									<svg
+										class="contact-icon"
+										xmlns="http://www.w3.org/2000/svg"
+										width="20"
+										height="20"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path
+											d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+										></path>
+									</svg>
+									<a href="tel:+15551234567">(555) 123-4567</a>
+								</div>
+								<div class="speech-bubble-contact">Call us!</div>
+							</div>
+
+							<div class="social-links">
+								<p class="social-title">Connect with us</p>
+								<div class="social-icons">
+									<a
+										class="social-link"
+										href="https://instagram.com/jdlmhanging"
+										target="_blank"
+										rel="noopener noreferrer"
+										aria-label="Instagram"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<rect
+												x="2"
+												y="2"
+												width="20"
+												height="20"
+												rx="5"
+												ry="5"
+											></rect>
+											<path
+												d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+											></path>
+											<line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+										</svg>
+									</a>
+
+									<a
+										class="social-link"
+										href="https://www.facebook.com/jdlmhanging"
+										target="_blank"
+										rel="noopener noreferrer"
+										aria-label="Facebook"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<path
+												d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+											></path>
+										</svg>
+									</a>
+
+									<a
+										class="social-link"
+										href="https://www.linkedin.com/company/jdlmhanging"
+										target="_blank"
+										rel="noopener noreferrer"
+										aria-label="LinkedIn"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<path
+												d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+											></path>
+											<rect x="2" y="9" width="4" height="12"></rect>
+											<circle cx="4" cy="4" r="2"></circle>
+										</svg>
+									</a>
+								</div>
+							</div>
+
+							<div class="mascot-wrapper">
+								<img
+									src="./img/mascot_hat.png"
+									alt="JDLM Door Hanger Mascot"
+									class="contact-mascot"
+								/>
+							</div>
+						</div>
+
+						<div class="contact-form-wrapper">
+							<form id="contactForm" class="contact-form">
+								<div class="form-group">
+									<label for="name">Name</label>
+									<input
+										id="name"
+										type="text"
+										name="name"
+										class="neo-input"
+										required
+									/>
+								</div>
+
+								<div class="form-group">
+									<label for="email">Email</label>
+									<input
+										id="email"
+										type="email"
+										name="email"
+										class="neo-input"
+										required
+									/>
+								</div>
+
+								<div class="form-group">
+									<label for="phone">Phone</label>
+									<input
+										id="phone"
+										type="tel"
+										name="phone"
+										class="neo-input"
+										placeholder="(555) 123-4567"
+										inputmode="tel"
+										autocomplete="tel"
+										maxlength="14"
+									/>
+								</div>
+
+								<div class="form-group">
+									<label for="message">Message</label>
+									<textarea
+										id="message"
+										name="message"
+										rows="4"
+										class="neo-input"
+										required
+									></textarea>
+								</div>
+
+								<!-- Hidden fields to match common EmailJS template variables -->
+								<input type="hidden" name="from_name" />
+								<input type="hidden" name="reply_to" />
+								<input type="hidden" name="from_email" />
+								<input type="hidden" name="from_phone" />
+								<input type="hidden" name="phone_number" />
+
+								<button type="submit" class="neo-button full-width">
+									Send Message
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<div class="footer-header">
+					<svg
+						class="chevron-icon"
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polyline points="6 9 12 15 18 9"></polyline>
+					</svg>
+					<h2 class="footer-title">Don't Leave Your Marketing Hanging!</h2>
+				</div>
+
+				<div class="footer-grid">
+					<div class="footer-brand">
+						<div class="footer-logo">
+							<!-- Logo will be added via CSS -->
+						</div>
+						<p class="footer-description">
+							Custom door hangers that get your business noticed. Targeted
+							marketing that delivers results.
+						</p>
+					</div>
+
+					<div class="footer-links">
+						<h3 class="footer-subtitle">Quick Links</h3>
+						<ul>
+							<li><a href="#hero">Home</a></li>
+							<li><a href="#about">About Us</a></li>
+							<li><a href="#testimonials">Testimonials</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+
+					<div class="footer-links">
+						<h3 class="footer-subtitle">Services</h3>
+						<ul>
+							<li><a href="#">Design</a></li>
+							<li><a href="#">Printing</a></li>
+							<li><a href="#">Distribution</a></li>
+							<li><a href="#">Analytics</a></li>
+						</ul>
+					</div>
+
+					<div class="footer-contact">
+						<h3 class="footer-subtitle">Contact</h3>
+						<address>
+							<p>123 Marketing Street</p>
+							<p>Doortown, HG 12345</p>
+							<p>hello@jdlmhanging.com</p>
+							<p>(555) 123-4567</p>
+						</address>
+					</div>
+				</div>
+
+				<div class="footer-bottom">
+					<p class="copyright">
+						&copy;
+						<script>
+							document.write(new Date().getFullYear());
+						</script>
+						Just Don't Leave Me Hanging. All rights reserved.
+					</p>
+					<div class="footer-legal">
+						<a href="#">Privacy</a>
+						<a href="#">Terms</a>
+						<a href="#">Sitemap</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+		<script src="js/emailjs.config.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
